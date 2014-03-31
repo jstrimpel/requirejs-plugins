@@ -2,7 +2,7 @@
   "name": "requirejs-plugins",
   "version": "1.0.2",
   "description": "Small set of plugins for [RequireJS](http://requirejs.org). Some plugins may also work on other AMD loaders (never tested it).",
-  "main": "index.js",
+  "main": "src/json.js",
   "directories": {
     "example": "examples"
   },
