@@ -28,7 +28,7 @@ define(['async', 'propertyParser'], function (async, propertyParser) {
 
                 settings.callback = onLoad;
 
-                req(['async!'+ (document.location.protocol === 'https:'? 'https' : 'http') +'://www.google.com/jsapi'], function(){
+                req([(document.location.protocol === 'https:'? 'https' : 'http') +'://www.google.com/jsapi'], function(){
                     google.load(data.moduleName, data.version, settings);
                 });
             }
